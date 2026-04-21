@@ -1,5 +1,6 @@
 var url = require('url');
 var http = require('http');
+var port = process.env.PORT || 3000;
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://kavin:12345@cluster0.wi2yeyj.mongodb.net/?appName=Cluster0";
 
@@ -48,4 +49,4 @@ http.createServer(function (req, res) {
         }
     }
     res.end();
-}).listen(8080);
+}).listen(port);
