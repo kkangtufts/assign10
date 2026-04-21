@@ -1,10 +1,10 @@
 {
-  "name": "helloapp",
+  "name": "kkang06assignment10part2",
   "version": "1.0.0",
-  "description": "example node app for heroku ",
-  "main": "hello_heroku.js",
+  "description": "Assignment 10 Part 2",
+  "main": "assign10part2.js",
   "scripts": {
-  "start": "node hello_heroku.js"
+  "start": "node assign10part2.js"
 },
   "repository": {
   "type": "git",
