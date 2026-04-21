@@ -45,6 +45,8 @@ http.createServer(function (req, res) {
             results.forEach(function(item) {
                 console.log("Place: " + item.place);
                 console.log("Zips: " + item.zips);
+                res.write("<h3>Place: " + item.place + "</h3>");
+                res.write("<h3>Zips: " + item.zips + "</h3>");
             });
         }
     }
